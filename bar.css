@@ -1,0 +1,47 @@
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #222222a3;
+  margin-top:50px;
+  margin-left:-10px;
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+@media screen and (min-width:220px) and (max-width:500px) {
+.icon-bar {
+  width: 50px; /* Set a specific width */
+  background-color: #222222a3;
+  margin-top:50px;
+  margin-left:-10px;
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 15px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 26px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color:#fff; /* Add a hover color */
+}
+
+.img{
+  width:22px;
+  height:22px;
+}
+
+}

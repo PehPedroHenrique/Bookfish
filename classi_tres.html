@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="classi.css">
+	<title></title>
+	<base target="pr"/>
+</head>
+<body bgcolor="#000">
+
+<div class="slideshow-container">
+    <p><b>E</b></p>
+  <div class="mySlides1">
+    <a href="#"><img src="capas/A abolicao.jpg" class="a"></a>
+    <a href="#"><img src="capas/A Ordem Injusta.jpg" class="b"></a>
+    <a href="#"><img src="capas/Apologia de Socrates.jpg" class="c"></a>
+    <a href="#"><img src="capas/as aguas que curam.jpg" class="d"></a>
+    <a href="#"><img src="capas/Carta da Terra.jpg" class="e"></a>
+    <a href="#"><img src="capas/Dama do cabare-noel rosa.jpg" class="f"></a>
+  </div>
+
+  <div class="mySlides1">
+    <a href="#"><img src="capas/Direitos humanos.jpg" class="g"></a>
+    <a href="#"><img src="capas/Educacao e Tecnologia num mundo globalizado.jpg" class="h"></a>
+    <a href="#"><img src="capas/Elementos de Geometria.jpg" class="i"></a>
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="j"></a>
+    <a href="#"><img src="capas/quimica quantica.jpg" class="k"></a>
+    <a href="#"><img src="capas/A abolicao.jpg" class="l"></a>
+  </div>
+
+  <div class="mySlides1">
+    <a href="#"><img src="capas/Apologia de Socrates.jpg" class="m"></a>
+     <a href="#"><img src="capas/Apologia de Socrates.jpg" class="n"></a>
+     <a href="#"><img src="capas/Apologia de Socrates.jpg" class="o"></a>
+     <a href="#"><img src="capas/Apologia de Socrates.jpg" class="p"></a>
+     <a href="#"><img src="capas/Apologia de Socrates.jpg" class="q"></a>
+     <a href="#"><img src="capas/Apologia de Socrates.jpg" class="r"></a>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+<div class="slideshow-container">
+    <p><b>F</b></p>
+  <div class="mySlides2">
+    <a href="#"><img src="capas/Direitos humanos.jpg" class="l1"></a>
+    <a href="#"><img src="capas/Apologia de Socrates.jpg" class="l2"></a>
+    <a href="#"><img src="capas/Direitos humanos.jpg" class="l3"></a>
+    <a href="#"><img src="capas/Apologia de Socrates.jpg" class="l4"></a>
+    <a href="#"><img src="capas/Direitos humanos.jpg" class="l5"></a>
+    <a href="#"><img src="capas/Apologia de Socrates.jpg" class="l6"></a>
+  </div>
+
+  <div class="mySlides2">
+    <a href="#"><img src="capas/quimica quantica.jpg" class="l7"></a>
+    <a href="#"><img src="capas/quimica quantica.jpg" class="l8"></a>
+    <a href="#"><img src="capas/quimica quantica.jpg" class="l9"></a>
+    <a href="#"><img src="capas/quimica quantica.jpg" class="l10"></a>
+    <a href="#"><img src="capas/quimica quantica.jpg" class="l11"></a>
+    <a href="#"><img src="capas/quimica quantica.jpg" class="l12"></a>
+  </div>
+
+  <div class="mySlides2">
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="l13"></a>
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="l14"></a>
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="l15"></a>
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="l16"></a>
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="l17"></a>
+    <a href="#"><img src="capas/O espaco e o vento.jpg" class="l18"></a>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

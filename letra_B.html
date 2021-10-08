@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="document.css">
+	<title>Documentários</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body bgcolor="#000">
+
+    <div class="topnav">
+   <span onclick="openNav()">&#9776; Categorias</span> 
+  <a href="perfil.html">Perfil</a>
+  <a href="mande.html">Mande Seu Livro</a>
+  <a href="forum.html">Fórum</a>
+   </div>
+
+   <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <form class="ex" action="/action_page.php" autocomplete="off">
+  <input type="text" placeholder="O que deseja ?" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+   </form>
+  <a href="teste.html">Aventuras</a>
+  <a href="biografia.html">Biográfias</a>
+  <a href="comedia.html">Comédias</a>
+  <a href="#">Contos</a>
+  <a href="#">Dramas</a>
+  <a href="#">Esportes</a>
+  <a href="filosofia.html">Filosofia</a>
+  <a href="#">Física</a>
+  <a href="#">Geografia</a>
+  <a href="#">Horror</a>
+  <a href="historia.html">História</a>
+  <a href="#">Infantil</a>
+  <a href="#">I. Juvenil</a>
+  <a href="#">Jogos</a>
+  <a href="#">Literatura</a>
+  <a href="#">Matemática</a>
+  <a href="#">Poema</a>
+  <a href="#">Química</a>
+  <a href="#">Romance</a>
+  <a href="#">Sociologia</a>
+  <a href="#">Mais...</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+  <a href="#">mas</a>
+  <a href="#">rgrgr</a>
+  <a href="#">rfree</a>
+</div>
+  
+   <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+  <a href="BookF.html" class="back">BookFish</a>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <a href="documentarios.html" class="ok">A</a>
+  <a href="letra_B.html" class="ok2">B</a>
+  <a href="#" class="ok2">C</a>
+  <a href="#" class="ok2">D</a>
+  <a href="#" class="ok2">E</a>
+  <a href="#" class="ok2">F</a>
+  <a href="#" class="ok2">G</a>
+  <a href="#" class="ok2">H</a>
+  <a href="#" class="ok2">I</a>
+</div>
+
+<div class="mySlides">
+  <a href="#" class="ok1">J</a>
+  <a href="#" class="ok2">K</a>
+  <a href="#" class="ok2">L</a>
+  <a href="#" class="ok2">M</a>
+  <a href="#" class="ok2">N</a>
+  <a href="#" class="ok2">O</a>
+  <a href="#" class="ok2">P</a>
+  <a href="#" class="ok2">Q</a>
+  <a href="#" class="ok2">R</a>
+</div>
+
+<div class="mySlides">
+  <a href="#" class="ok1">S</a>
+  <a href="#" class="ok2">T</a>
+  <a href="#" class="ok2">U</a>
+  <a href="#" class="ok2">V</a>
+  <a href="#" class="ok2">W</a>
+  <a href="#" class="ok2">X</a>
+  <a href="#" class="ok2">Y</a>
+  <a href="#" class="ok2">Z</a>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+    <section class="container">
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="capas/Apologia de Socrates.jpg"></a>
+      <h4>Documentário com B</h4>
+      <p>Pôr do sol na praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beach-sunset-thailand.jpg"></a>
+      <h4>Documentário 2</h4>
+      <p>Praia na Tailândia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beautiful-beach-in-portugal.jpg"></a>
+      <h4>Documentário 3</h4>
+      <p>Praia em Portugal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-da-bombaca.jpg"></a>
+      <h4>Documentário 4</h4>
+      <p>Praia bonita.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-de-indaiauba-ilhabela.jpg"></a>
+      <h4>Documentário 5</h4>
+      <p>Linda praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-do-sono-capa.jpg"></a>
+      <h4>Documentário 6</h4>
+      <p>Praia legal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-toninhas-ubatuba.jpg"></a>
+      <h4>Documentário 7</h4>
+      <p>Maravilhosa praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="thailand-beach.jpg"></a>
+      <h4>Documentário 8</h4>
+      <p>Outra na tailândia.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="container2">
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="capas/Apologia de Socrates.jpg"></a>
+      <h4>Documentário 9</h4>
+      <p>Pôr do sol na praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beach-sunset-thailand.jpg"></a>
+      <h4>Documentário 10</h4>
+      <p>Praia na Tailândia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beautiful-beach-in-portugal.jpg"></a>
+      <h4>Documentário 11</h4>
+      <p>Praia em Portugal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-da-bombaca.jpg"></a>
+      <h4>Documentário 12</h4>
+      <p>Praia bonita.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-de-indaiauba-ilhabela.jpg"></a>
+      <h4>Documentário 13</h4>
+      <p>Linda praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-do-sono-capa.jpg"></a>
+      <h4>Documentário 14</h4>
+      <p>Praia legal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-toninhas-ubatuba.jpg"></a>
+      <h4>Documentário 15</h4>
+      <p>Maravilhosa praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="thailand-beach.jpg"></a>
+      <h4>Documentário 16</h4>
+      <p>Outra na tailândia.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="container2">
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="capas/Apologia de Socrates.jpg"></a>
+      <h4>Documentário 17</h4>
+      <p>Pôr do sol na praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beach-sunset-thailand.jpg"></a>
+      <h4>Documentário 18</h4>
+      <p>Praia na Tailândia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beautiful-beach-in-portugal.jpg"></a>
+      <h4>Documentário 19</h4>
+      <p>Praia em Portugal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-da-bombaca.jpg"></a>
+      <h4>Documentário 20</h4>
+      <p>Praia bonita.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-de-indaiauba-ilhabela.jpg"></a>
+      <h4>Documentário 21</h4>
+      <p>Linda praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-do-sono-capa.jpg"></a>
+      <h4>Documentário 22</h4>
+      <p>Praia legal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-toninhas-ubatuba.jpg"></a>
+      <h4>Documentário 23</h4>
+      <p>Maravilhosa praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="thailand-beach.jpg"></a>
+      <h4>Documentário 24</h4>
+      <p>Outra na tailândia.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="container2">
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="capas/Apologia de Socrates.jpg"></a>
+      <h4>Documentário 25</h4>
+      <p>Pôr do sol na praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beach-sunset-thailand.jpg"></a>
+      <h4>Documentário 26</h4>
+      <p>Praia na Tailândia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beautiful-beach-in-portugal.jpg"></a>
+      <h4>Documentário 27</h4>
+      <p>Praia em Portugal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-da-bombaca.jpg"></a>
+      <h4>Documentário 28</h4>
+      <p>Praia bonita.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-de-indaiauba-ilhabela.jpg"></a>
+      <h4>Documentário 29</h4>
+      <p>Linda praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-do-sono-capa.jpg"></a>
+      <h4>Documentário 30</h4>
+      <p>Praia legal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-toninhas-ubatuba.jpg"></a>
+      <h4>Documentário 31</h4>
+      <p>Maravilhosa praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="thailand-beach.jpg"></a>
+      <h4>Documentário 32</h4>
+      <p>Outra na tailândia.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="container2">
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="capas/Apologia de Socrates.jpg"></a>
+      <h4>Documentário 33</h4>
+      <p>Pôr do sol na praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beach-sunset-thailand.jpg"></a>
+      <h4>Documentário 34</h4>
+      <p>Praia na Tailândia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="beautiful-beach-in-portugal.jpg"></a>
+      <h4>Documentário 35</h4>
+      <p>Praia em Portugal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-da-bombaca.jpg"></a>
+      <h4>Documentário 36</h4>
+      <p>Praia bonita.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-de-indaiauba-ilhabela.jpg"></a>
+      <h4>Documentário 37</h4>
+      <p>Linda praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-do-sono-capa.jpg"></a>
+      <h4>Documentário 38</h4>
+      <p>Praia legal.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="praia-toninhas-ubatuba.jpg"></a>
+      <h4>Documentário 39</h4>
+      <p>Maravilhosa praia.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="#" target="_blank"><img src="thailand-beach.jpg"></a>
+      <h4>Documentário 40</h4>
+      <p>Outra na tailândia.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+</body>
+</html>

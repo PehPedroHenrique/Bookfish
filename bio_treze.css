@@ -1,0 +1,742 @@
+* {box-sizing: border-box}
+
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 670px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor:pointer;
+  position:absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -12px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/*conteudo...*/
+
+.a{
+  height:130px;
+  width:100px; 
+}
+
+.b{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.c{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.d{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.e{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.f{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+/*parte 2*/
+.g{
+  height:130px;
+  width:100px;
+}
+
+.h{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.i{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.j{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.k{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+/*parte 3...*/
+.m{
+  height:130px;
+  width:100px;
+} 
+
+.n{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.o{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.p{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.q{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+} 
+
+.r{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+/*alinhamento de texto*/
+
+p{
+  color:#fff;
+  text-align:left;
+  margin-left:12px;
+  font-size:18px;
+  margin-top:2px;
+}
+
+/*imagens do slide 2...*/
+
+.l1{
+  height:130px;
+  width:100px;
+}
+
+.l2{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l3{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l4{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l5{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l6{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+/*parte 2...*/
+.l7{
+  height:130px;
+  width:100px;
+} 
+
+.l8{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+ 
+.l9{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l10{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+} 
+
+.l11{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+} 
+
+.l12{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+/*parte 3*/
+.l13{
+  height:130px;
+  width:100px;
+}
+
+.l14{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l15{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l16{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l17{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+.l18{
+  height:130px;
+  width:100px;
+  margin-left:10px;
+}
+
+/*mobile...*/
+@media screen and (max-width:530px){
+
+.mySlides1 img{
+  width:15%;
+}
+
+.a{
+  height:107px;
+  width:66px; 
+  margin-left:2px;
+}
+
+.b{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.c{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.d{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.e{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.f{
+  height:107px;
+  width:66px;
+  margin-left:7px;
+}
+/*parte 2...*/
+.g{
+  height:107px;
+  width:66px;
+  margin-left:2px;
+}
+
+.h{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.i{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.j{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.k{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l{
+  height:107px;
+  width:66px;
+  margin-left:7px;
+}
+/*parte 3...*/
+.m{
+  height:107px;
+  width:66px;
+  margin-left:2px;
+}
+
+.n{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.o{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.p{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.q{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.r{
+  height:107px;
+  width:66px;
+  margin-left:7px;
+}
+
+p{
+  color:#fff;
+  text-align:left;
+  font-size:18px;
+  margin-left:7px;
+}
+
+/*slide 2...*/
+
+.mySlides2 img{
+  width:15%;
+}
+
+.l1{
+  width:66px;
+  height:107px;
+  margin-left:2px;
+}
+
+.l2{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l3{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l4{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l5{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l6{
+  height:107px;
+  width:66px;
+  margin-left:7px;
+}
+/*parte 2...*/
+.l7{
+  height:107px;
+  width:66px;
+  margin-left:2px;
+} 
+
+.l8{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+ 
+.l9{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l10{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+} 
+
+.l11{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+} 
+
+.l12{
+  height:107px;
+  width:66px;
+  margin-left:7px;
+}
+/*parte 3*/
+.l13{
+  height:107px;
+  width:66px;
+  margin-left:2px;
+}
+
+.l14{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l15{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l16{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l17{
+  height:107px;
+  width:66px;
+  margin-left:4px;
+}
+
+.l18{
+  height:107px;
+  width:66px;
+  margin-left:7px;
+}
+
+}
+/*tablet...*/
+@media screen and (min-width:531px) and (max-width:921px){
+
+.mySlides1 img{
+  width:15.4%;
+}
+
+.a{
+  height:115px;
+  width:90px; 
+  margin-left:2px;
+}
+
+.b{
+  height:115px;
+  width:90px;
+  margin-left:2.6px;
+}
+
+.c{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.d{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.e{
+  height:115px;
+  width:90px;
+  margin-left:3px;
+}
+
+.f{
+  height:115px;
+  width:88px;
+  margin-left:4px;
+}
+/*parte 2...*/
+.g{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.h{
+  height:115px;
+  width:90px;
+  margin-left:2.6px;
+}
+
+.i{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.j{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.k{
+  height:115px;
+  width:90px;
+  margin-left:3px;
+}
+
+.l{
+  height:115px;
+  width:90px;
+  margin-left:4px;
+}
+/*parte 3...*/
+.m{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+} 
+
+.n{
+  height:115px;
+  width:90px;
+  margin-left:2.6px;
+} 
+
+.o{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+} 
+
+.p{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+} 
+
+.q{
+  height:115px;
+  width:90px;
+  margin-left:3px;
+}
+
+.r{
+  height:115px;
+  width:90px;
+  margin-left:4px;
+}
+
+.next{
+  right:1.6%;
+  border-radius: 3px 0 0 3px;
+}
+
+p{
+  color:#fff;
+  text-align:left;
+  font-size:18px;
+  margin-left:7px;
+}
+
+/*slide 2...*/
+
+.mySlides2 img{
+  width:15.4%;
+}
+
+.l1{
+  width:90px;
+  height:115px;
+  margin-left:2px;
+}
+
+.l2{
+  height:115px;
+  width:90px;
+  margin-left:2.6px;
+}
+
+.l3{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.l4{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.l5{
+  height:115px;
+  width:90px;
+  margin-left:3px;
+}
+
+.l6{
+  height:115px;
+  width:90px;
+  margin-left:4px;
+}
+/*parte 2...*/
+.l7{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+} 
+
+.l8{
+  height:115px;
+  width:90px;
+  margin-left:2.6px;
+}
+ 
+.l9{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.l10{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+} 
+
+.l11{
+  height:115px;
+  width:90px;
+  margin-left:3px;
+} 
+
+.l12{
+  height:115px;
+  width:90px;
+  margin-left:4px;
+}
+/*parte 3*/
+.l13{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.l14{
+  height:115px;
+  width:90px;
+  margin-left:2.6px;
+}
+
+.l15{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.l16{
+  height:115px;
+  width:90px;
+  margin-left:2px;
+}
+
+.l17{
+  height:115px;
+  width:90px;
+  margin-left:3px;
+}
+
+.l18{
+  height:115px;
+  width:90px;
+  margin-left:4px;
+}
+
+}

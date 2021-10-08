@@ -1,0 +1,102 @@
+* {box-sizing: border-box;}
+
+body{
+  background-image:url(imagens/parque-ibirapuera.jpg);
+}
+/* Add padding to containers */
+.container {
+  padding:10px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display:inline-block;
+  border:none;
+  background: #222222a3;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #638b9c;
+  margin-bottom: 20px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #000;
+  text-align: center;
+}
+
+.area{
+  background:#000000a3;
+  position: absolute;
+  width:400px;
+  height:530px;
+  top:1%;
+  left:50%;
+  margin-left:-185px;
+  margin-top:50px;
+}
+
+.botao {
+  padding: 10px 30px;
+  background-color: #33CC66;
+  font-size: 1em;
+  border-radius: 3px;
+  margin-top:5px;
+  margin-left:3px;
+  margin-bottom:100px;
+  height:40px;
+  width:100px;
+  position: absolute;
+}
+
+.abc a{
+  color: #000000;
+  text-decoration: none;
+}
+
+@media screen and (max-width:630px) {
+  .container{
+    width:100%;
+    height:100%;
+  }
+
+  body{
+    background:#000;
+  }
+
+  .area{
+    background:none;
+    margin-top:8vw;
+  }
+}

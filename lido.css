@@ -1,0 +1,319 @@
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-top:-7px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.sidenav {
+  height: 91%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 5px 10px 5px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+span{
+  cursor:pointer;
+  font-size:23px;
+  color:#fff;
+}
+
+form.ex input[type=text] {
+  padding:3px;
+  font-size: 17px;
+  width:72%;
+  border: 1px solid grey;
+  float: left;
+  background: #f1f1f1;
+}
+
+form.ex button {
+  float: right;
+  width: 20%;
+  padding:3px;
+  background: #00cc00;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-right:1.8vh;
+}
+
+form.ex button:hover {
+  background: #009900;
+}
+
+form.ex::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form{
+  margin-bottom:1%;
+  margin-top:-2vh;
+  margin-left:1vh;
+}
+
+
+.cd{
+   background-color:#ff6633; 
+   position: absolute;
+   width:220px;
+   height:30px;
+   top:5%;
+   left:50%;
+   margin-left:-100px;
+   margin-top:50px;
+}
+
+.cd h2{
+  margin-top:2px;
+  margin-left:45px;
+}
+
+.cdc{
+  background-color:#ff6633;
+  position: absolute;
+  width:150px;
+  height:30px;
+  top:5%;
+  left:50%;
+  margin-left:-80px;
+  margin-top:50px;
+}
+.cdc h2{
+  margin-top:2px;
+  margin-left:30px;
+}
+
+.cdd{
+  background-color:#ff6633;
+  position: absolute;
+  width:160px;
+  height:30px;
+  top:5%;
+  left:50%;
+  margin-left:-80px;
+  margin-top:50px;
+}
+
+.cdd h2{
+  margin-top:2px;
+  margin-left:41px;
+}
+
+.ch{
+  background-color:#ff6633;
+  position: absolute;
+  width:260px;
+  height:30px;
+  top:5%;
+  left:50%;
+  margin-left:-120px;
+  margin-top:50px;
+}
+
+.ch h2{
+  margin-top:2px;
+  margin-left:28px;
+}
+
+.il{
+   background-color:#111111a3;
+   position: absolute;
+   width:565px;
+   height:450px;
+   top:14%;
+   left:50%;
+   margin-left:-283px;
+   margin-top:50px;
+}
+
+.il h3{
+   margin-top:10px;
+   margin-left:40px;
+   margin-bottom:5px;
+}
+
+iframe{
+  border:none;
+  margin-left:1%;
+  height:63vh;
+  width:98%;
+}
+
+.botao {
+  padding: 10px 30px;
+  background-color: #33CC66;
+  font-size: 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left:45px;
+  color: #000000;
+  margin-top: 575px;
+  width: 40px;
+  display:flex;
+  margin-bottom:15px;
+}
+
+.botao a{
+   color: #000;
+   text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+.cd{
+   background-color:#ff6633; 
+   position: absolute;
+   width:190px;
+   height:28px;
+   top:5%;
+   left:50%;
+   margin-left:-80px;
+   margin-top:40px;
+}
+
+.cd h2{
+   margin-top:3px;
+   margin-left:42px;
+   font-size:20px;
+}
+
+.cdc{
+  background-color:#ff6633;
+  position: absolute;
+  width:140px;
+  height:28px;
+  top:5%;
+  left:50%;
+  margin-left:-70px;
+  margin-top:40px;
+}
+.cdc h2{
+   margin-top:3px;
+   margin-left:32px;
+   font-size:20px;
+}
+
+.cdd{
+  background-color:#ff6633;
+   position: absolute;
+   width:130px;
+   height:28px;
+   top:5%;
+   left:50%;
+   margin-left:-60px;
+   margin-top:40px;
+}
+
+.cdd h2{
+  margin-top:3px;
+  margin-left:35px;
+  font-size:20px;
+}
+
+.ch{
+  background-color:#ff6633;
+   position: absolute;
+   width:220px;
+   height:28px;
+   top:5%;
+   left:50%;
+   margin-left:-100px;
+   margin-top:40px;
+}
+
+.ch h2{
+  margin-top:3px;
+  margin-left:28px;
+  font-size:20px;
+}
+
+.il{
+   background-color:#111111a3;
+   position: absolute;
+   width:466px;
+   height:400px;
+   top:10%;
+   left:50%;
+   margin-left:-233px;
+   margin-top:70px;
+}
+
+.il h3{
+   margin-left:30px;
+   font-size:17px;
+}
+
+iframe{
+  border:none;
+  margin-left:1%;
+  height:58vh;
+  width:98%;
+}
+
+.botao {
+  padding: 10px 20px;
+  background-color: #33CC66;
+  font-size: 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-left:30px;
+  color: #000000;
+  margin-top: 510px;
+  width: 40px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.botao a{
+   color: #000;
+   text-decoration: none;
+}
+
+}
